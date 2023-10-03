@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5956EB502AB3A3AF00BD7776 /* DaySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB4F2AB3A3AF00BD7776 /* DaySelectorView.swift */; };
+		5956EB532AB3A66B00BD7776 /* DayEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB522AB3A66B00BD7776 /* DayEditView.swift */; };
+		5956EB5D2AB3AB6700BD7776 /* TagObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB5C2AB3AB6700BD7776 /* TagObject.swift */; };
+		5956EB652AB3AD0500BD7776 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB642AB3AD0500BD7776 /* TagsView.swift */; };
+		5956EB672AB3AEC400BD7776 /* TagListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB662AB3AEC400BD7776 /* TagListElement.swift */; };
+		5956EB692AB5110500BD7776 /* DayEditEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB682AB5110500BD7776 /* DayEditEntryView.swift */; };
+		5956EB6B2AB5113500BD7776 /* DayEntryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB6A2AB5113500BD7776 /* DayEntryObject.swift */; };
+		5956EB6F2AB51AEB00BD7776 /* DaySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB6E2AB51AEB00BD7776 /* DaySummaryView.swift */; };
+		5956EB752AB5C0FB00BD7776 /* DayComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB742AB5C0FB00BD7776 /* DayComponent.swift */; };
+		5956EB7A2AB7469600BD7776 /* DaySummaryEntryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB792AB7469600BD7776 /* DaySummaryEntryObject.swift */; };
+		5956EB7C2AB747B100BD7776 /* DaySummaryEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5956EB7B2AB747B100BD7776 /* DaySummaryEntryView.swift */; };
+		59DAF1232AC8476C00DE1502 /* DaySummaryObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAF1222AC8476C00DE1502 /* DaySummaryObject.swift */; };
+		59DAF1252AC84F7B00DE1502 /* DaySummaryErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAF1242AC84F7B00DE1502 /* DaySummaryErrorView.swift */; };
+		59DAF1272ACC0E5500DE1502 /* ComponentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAF1262ACC0E5500DE1502 /* ComponentManager.swift */; };
+		59DAF1292ACC0EBA00DE1502 /* BaseComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAF1282ACC0EBA00DE1502 /* BaseComponent.swift */; };
+		59DAF12E2ACC3CBB00DE1502 /* TagComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59DAF12D2ACC3CBB00DE1502 /* TagComponent.swift */; };
+		59F7951B2A9555CC00FA882A /* WorkTimeClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F7951A2A9555CC00FA882A /* WorkTimeClockApp.swift */; };
+		59F7951D2A9555CC00FA882A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F7951C2A9555CC00FA882A /* ContentView.swift */; };
+		59F7951F2A9555CD00FA882A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F7951E2A9555CD00FA882A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5956EB4F2AB3A3AF00BD7776 /* DaySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectorView.swift; sourceTree = "<group>"; };
+		5956EB522AB3A66B00BD7776 /* DayEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEditView.swift; sourceTree = "<group>"; };
+		5956EB5C2AB3AB6700BD7776 /* TagObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagObject.swift; sourceTree = "<group>"; };
+		5956EB642AB3AD0500BD7776 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		5956EB662AB3AEC400BD7776 /* TagListElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListElement.swift; sourceTree = "<group>"; };
+		5956EB682AB5110500BD7776 /* DayEditEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEditEntryView.swift; sourceTree = "<group>"; };
+		5956EB6A2AB5113500BD7776 /* DayEntryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayEntryObject.swift; sourceTree = "<group>"; };
+		5956EB6E2AB51AEB00BD7776 /* DaySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySummaryView.swift; sourceTree = "<group>"; };
+		5956EB742AB5C0FB00BD7776 /* DayComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayComponent.swift; sourceTree = "<group>"; };
+		5956EB792AB7469600BD7776 /* DaySummaryEntryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySummaryEntryObject.swift; sourceTree = "<group>"; };
+		5956EB7B2AB747B100BD7776 /* DaySummaryEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySummaryEntryView.swift; sourceTree = "<group>"; };
+		59DAF1222AC8476C00DE1502 /* DaySummaryObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySummaryObject.swift; sourceTree = "<group>"; };
+		59DAF1242AC84F7B00DE1502 /* DaySummaryErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySummaryErrorView.swift; sourceTree = "<group>"; };
+		59DAF1262ACC0E5500DE1502 /* ComponentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentManager.swift; sourceTree = "<group>"; };
+		59DAF1282ACC0EBA00DE1502 /* BaseComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseComponent.swift; sourceTree = "<group>"; };
+		59DAF12D2ACC3CBB00DE1502 /* TagComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagComponent.swift; sourceTree = "<group>"; };
+		59F795172A9555CC00FA882A /* WorkTimeClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkTimeClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F7951A2A9555CC00FA882A /* WorkTimeClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTimeClockApp.swift; sourceTree = "<group>"; };
+		59F7951C2A9555CC00FA882A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59F7951E2A9555CD00FA882A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F795212A9555CD00FA882A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59F795232A9555CD00FA882A /* WorkTimeClock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WorkTimeClock.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59F795142A9555CC00FA882A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5956EB4B2AB3A35700BD7776 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5956EB732AB5BBDD00BD7776 /* Days */,
+				5956EB722AB5BB7600BD7776 /* Tags */,
+				59F7951C2A9555CC00FA882A /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5956EB4C2AB3A36400BD7776 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				59DAF12C2ACC104000DE1502 /* Manager */,
+				5956EB742AB5C0FB00BD7776 /* DayComponent.swift */,
+				59DAF12D2ACC3CBB00DE1502 /* TagComponent.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5956EB5B2AB3AB2C00BD7776 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5956EB5C2AB3AB6700BD7776 /* TagObject.swift */,
+				5956EB6A2AB5113500BD7776 /* DayEntryObject.swift */,
+				59DAF1222AC8476C00DE1502 /* DaySummaryObject.swift */,
+				5956EB792AB7469600BD7776 /* DaySummaryEntryObject.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5956EB702AB5BB5300BD7776 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				5956EB522AB3A66B00BD7776 /* DayEditView.swift */,
+				5956EB682AB5110500BD7776 /* DayEditEntryView.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		5956EB712AB5BB5E00BD7776 /* Summary */ = {
+			isa = PBXGroup;
+			children = (
+				5956EB6E2AB51AEB00BD7776 /* DaySummaryView.swift */,
+				59DAF1242AC84F7B00DE1502 /* DaySummaryErrorView.swift */,
+				5956EB7B2AB747B100BD7776 /* DaySummaryEntryView.swift */,
+			);
+			path = Summary;
+			sourceTree = "<group>";
+		};
+		5956EB722AB5BB7600BD7776 /* Tags */ = {
+			isa = PBXGroup;
+			children = (
+				5956EB642AB3AD0500BD7776 /* TagsView.swift */,
+				5956EB662AB3AEC400BD7776 /* TagListElement.swift */,
+			);
+			path = Tags;
+			sourceTree = "<group>";
+		};
+		5956EB732AB5BBDD00BD7776 /* Days */ = {
+			isa = PBXGroup;
+			children = (
+				5956EB702AB5BB5300BD7776 /* Edit */,
+				5956EB712AB5BB5E00BD7776 /* Summary */,
+				5956EB4F2AB3A3AF00BD7776 /* DaySelectorView.swift */,
+			);
+			path = Days;
+			sourceTree = "<group>";
+		};
+		59DAF12C2ACC104000DE1502 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				59DAF1262ACC0E5500DE1502 /* ComponentManager.swift */,
+				59DAF1282ACC0EBA00DE1502 /* BaseComponent.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		59F7950E2A9555CC00FA882A = {
+			isa = PBXGroup;
+			children = (
+				59F795192A9555CC00FA882A /* WorkTimeClock */,
+				59F795182A9555CC00FA882A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59F795182A9555CC00FA882A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F795172A9555CC00FA882A /* WorkTimeClock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F795192A9555CC00FA882A /* WorkTimeClock */ = {
+			isa = PBXGroup;
+			children = (
+				5956EB5B2AB3AB2C00BD7776 /* Data */,
+				5956EB4C2AB3A36400BD7776 /* Components */,
+				5956EB4B2AB3A35700BD7776 /* Views */,
+				59F7951A2A9555CC00FA882A /* WorkTimeClockApp.swift */,
+				59F7951E2A9555CD00FA882A /* Assets.xcassets */,
+				59F795232A9555CD00FA882A /* WorkTimeClock.entitlements */,
+				59F795202A9555CD00FA882A /* Preview Content */,
+			);
+			path = WorkTimeClock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59F795162A9555CC00FA882A /* WorkTimeClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F795262A9555CD00FA882A /* Build configuration list for PBXNativeTarget "WorkTimeClock" */;
+			buildPhases = (
+				59F795132A9555CC00FA882A /* Sources */,
+				59F795142A9555CC00FA882A /* Frameworks */,
+				59F795152A9555CC00FA882A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkTimeClock;
+			productName = WorkTimeClock;
+			productReference = 59F795172A9555CC00FA882A /* WorkTimeClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59F7950F2A9555CC00FA882A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					59F795162A9555CC00FA882A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 59F795122A9555CC00FA882A /* Build configuration list for PBXProject "WorkTimeClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				de,
+			);
+			mainGroup = 59F7950E2A9555CC00FA882A;
+			productRefGroup = 59F795182A9555CC00FA882A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F795162A9555CC00FA882A /* WorkTimeClock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59F795152A9555CC00FA882A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F7951F2A9555CD00FA882A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F795132A9555CC00FA882A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5956EB752AB5C0FB00BD7776 /* DayComponent.swift in Sources */,
+				59DAF1292ACC0EBA00DE1502 /* BaseComponent.swift in Sources */,
+				5956EB532AB3A66B00BD7776 /* DayEditView.swift in Sources */,
+				59F7951D2A9555CC00FA882A /* ContentView.swift in Sources */,
+				5956EB672AB3AEC400BD7776 /* TagListElement.swift in Sources */,
+				5956EB6B2AB5113500BD7776 /* DayEntryObject.swift in Sources */,
+				59DAF1252AC84F7B00DE1502 /* DaySummaryErrorView.swift in Sources */,
+				59F7951B2A9555CC00FA882A /* WorkTimeClockApp.swift in Sources */,
+				59DAF12E2ACC3CBB00DE1502 /* TagComponent.swift in Sources */,
+				5956EB502AB3A3AF00BD7776 /* DaySelectorView.swift in Sources */,
+				5956EB5D2AB3AB6700BD7776 /* TagObject.swift in Sources */,
+				59DAF1232AC8476C00DE1502 /* DaySummaryObject.swift in Sources */,
+				5956EB7C2AB747B100BD7776 /* DaySummaryEntryView.swift in Sources */,
+				5956EB652AB3AD0500BD7776 /* TagsView.swift in Sources */,
+				5956EB6F2AB51AEB00BD7776 /* DaySummaryView.swift in Sources */,
+				5956EB692AB5110500BD7776 /* DayEditEntryView.swift in Sources */,
+				5956EB7A2AB7469600BD7776 /* DaySummaryEntryObject.swift in Sources */,
+				59DAF1272ACC0E5500DE1502 /* ComponentManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		59F795242A9555CD00FA882A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59F795252A9555CD00FA882A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		59F795272A9555CD00FA882A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorkTimeClock/WorkTimeClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 2V5FBYWCRJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.shadowexploit.WorkTimeClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59F795282A9555CD00FA882A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WorkTimeClock/WorkTimeClock.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 2V5FBYWCRJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.shadowexploit.WorkTimeClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59F795122A9555CC00FA882A /* Build configuration list for PBXProject "WorkTimeClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F795242A9555CD00FA882A /* Debug */,
+				59F795252A9555CD00FA882A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F795262A9555CD00FA882A /* Build configuration list for PBXNativeTarget "WorkTimeClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F795272A9555CD00FA882A /* Debug */,
+				59F795282A9555CD00FA882A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59F7950F2A9555CC00FA882A /* Project object */;
+}
